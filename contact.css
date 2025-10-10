@@ -1,0 +1,61 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(rgba(16, 204, 116, 0.532), rgba(229,231,235,0.8)),
+              url('https://cdn.pixabay.com/photo/2015/01/25/21/02/phone-612061_1280.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+.contact-section {
+  background: rgba(239, 225, 225, 0.711); 
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 40px 30px;
+ border-radius: 20px;
+  text-align: center;
+ transition: all 0.5s ease-in-out;
+}
+
+.contact-section:hover {
+  transform: scale(1.02);
+  box-shadow: 10px 10px rgba(26, 22, 245, 0.416);
+
+}
+.contact-section h3 {
+  font-size: 1.8rem;
+  color: #1d3557;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.contact-info p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.contact-info strong {
+  color: #020a17de;
+}
+
+.contact-info a {
+  color: #1c0adfc5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  color: #0c011bd2;
+}
+
+
+footer {
+  color: rgba(15, 2, 2, 0.922);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  margin-top: 60px;
+  letter-spacing: 0.5px;
+}
